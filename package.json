@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
@@ -21,5 +22,8 @@
     "multer": "^2.1.1",
     "multer-storage-cloudinary": "^4.0.0",
     "xpress": "^2.4.6"
+  },
+  "engines": {
+    "node": "18.x"
   }
 }
